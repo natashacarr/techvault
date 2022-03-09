@@ -1,0 +1,16 @@
+#reviews-carousel {
+  border: 1px solid black;
+}
+
+.carousel-icon,
+.carousel-indicators {
+  filter: invert(100%);
+}
+
+.carousel-item {
+  height: 20rem;
+}
+
+.carousel-item p {
+  font-size: 2rem;
+}

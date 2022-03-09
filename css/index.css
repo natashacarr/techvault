@@ -1,0 +1,153 @@
+body {
+  background-color: cadetblue;
+}
+
+#container {
+  width: 99vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#logo {
+  grid-row: 1/1;
+}
+
+#nav {
+  grid-row: 2/2;
+}
+
+#promise {
+  grid-row: 3/3;
+}
+
+#reviews {
+  grid-row: 4/4;
+}
+
+/* products */
+
+#products {
+  grid-row: 5/5;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(3, auto);
+  justify-items: center;
+  align-items: center;
+}
+
+#product-1 {
+  grid-column: 1/1;
+  align-self: flex-start;
+}
+
+#product-2 {
+  grid-column: 2/2;
+  align-self: flex-start;
+}
+
+#product-3 {
+  grid-column: 3/3;
+  align-self: flex-start;
+}
+
+#product-4 {
+  grid-column: 4/4;
+  align-self: flex-start;
+}
+
+#product-5 {
+  grid-column: 5/5;
+  align-self: flex-start;
+}
+
+button.btn.collapsed:before {
+  content: "+";
+  display: block;
+  width: 15px;
+}
+button.btn:before {
+  content: "-";
+  display: block;
+  width: 15px;
+}
+
+/* team */
+
+#team {
+  grid-row: 6/6;
+  display: grid;
+  grid-template-columns: 20% 15% 17% 15.5% 17% 15.5%;
+  grid-template-rows: repeat(3, auto);
+  justify-items: center;
+  align-items: center;
+}
+
+#employee-1-img {
+  grid-column: 1/1;
+  grid-row: 2/4;
+}
+
+#employee-1-txt {
+  grid-column: 2/2;
+  grid-row: 2/4;
+}
+
+#employee-2-img {
+  grid-column: 3/3;
+  grid-row: 2/3;
+}
+
+#employee-2-txt {
+  grid-column: 4/4;
+  grid-row: 2/3;
+}
+
+#employee-3-img {
+  grid-column: 3/3;
+  grid-row: 3/3;
+}
+
+#employee-3-txt {
+  grid-column: 4/4;
+  grid-row: 3/3;
+}
+
+#employee-4-img {
+  grid-column: 5/5;
+  grid-row: 2/3;
+}
+
+#employee-4-txt {
+  grid-column: 6/6;
+  grid-row: 2/3;
+}
+
+#employee-5-img {
+  grid-column: 5/5;
+  grid-row: 3/3;
+}
+
+#employee-5-txt {
+  grid-column: 6/6;
+  grid-row: 3/3;
+}
+
+#logo,
+#nav,
+#promise,
+#reviews,
+#products,
+#team {
+  width: 100%;
+  border: solid 1px black;
+}
+
+footer {
+  width: 99vw;
+  margin: 0 auto;
+  border: solid 1px black;
+}

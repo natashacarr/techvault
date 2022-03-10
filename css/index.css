@@ -1,9 +1,15 @@
+/* //// */
+/* page */
+/* //// */
+
 body {
-  background-color: cadetblue;
+  background-color: #f3effe;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  color: black;
 }
 
 #container {
-  width: 99vw;
+  width: 100vw;
   margin: 0 auto;
   display: grid;
   grid-template-rows: repeat(6, auto);
@@ -12,23 +18,81 @@ body {
   align-items: center;
 }
 
+#logo,
+#nav,
+#promise,
+#reviews,
+#products,
+#team {
+  width: 100%;
+}
+
+/* ////// */
+/* header */
+/* ////// */
+
 #logo {
   grid-row: 1/1;
+  background-color: #f3effe;
+}
+
+#logo-img {
+  width: 40%;
+  margin: 3% 0;
 }
 
 #nav {
   grid-row: 2/2;
+  position: sticky;
+  top: 0;
+  background-color: #f3effe;
 }
+
+#menu {
+  padding: 0;
+  margin: 0;
+}
+
+#menu li {
+  display: inline-block;
+  margin: 0 4%;
+}
+
+#menu a,
+#menu a:visited {
+  font-family: "Smooch Sans", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+/* /////// */
+/* promise */
+/* /////// */
 
 #promise {
   grid-row: 3/3;
+  background-color: #ffd744;
 }
+
+/* /////// */
+/* reviews */
+/* /////// */
 
 #reviews {
   grid-row: 4/4;
+  background-color: #36bc94;
 }
 
+/* //////// */
 /* products */
+/* //////// */
 
 #products {
   grid-row: 5/5;
@@ -37,6 +101,7 @@ body {
   grid-template-rows: repeat(3, auto);
   justify-items: center;
   align-items: center;
+  background-color: #f3effe;
 }
 
 #product-1 {
@@ -75,7 +140,9 @@ button.btn:before {
   width: 15px;
 }
 
+/* //// */
 /* team */
+/* //// */
 
 #team {
   grid-row: 6/6;
@@ -84,6 +151,7 @@ button.btn:before {
   grid-template-rows: repeat(3, auto);
   justify-items: center;
   align-items: center;
+  background-color: #ff8a47;
 }
 
 #employee-1-img {
@@ -136,18 +204,13 @@ button.btn:before {
   grid-row: 3/3;
 }
 
-#logo,
-#nav,
-#promise,
-#reviews,
-#products,
-#team {
-  width: 100%;
-  border: solid 1px black;
-}
+/* ////// */
+/* footer */
+/* ////// */
 
 footer {
-  width: 99vw;
+  width: 100vw;
   margin: 0 auto;
+  background-color: #081b14;
   border: solid 1px black;
 }

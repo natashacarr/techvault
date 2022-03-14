@@ -145,4 +145,43 @@ footer {
 
 footer {
   background-color: #081b14;
+  color: #c3d1cc;
+  font-size: 0.9rem;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  padding-top: 4%;
+}
+
+#copyright {
+  grid-column: 1/1;
+  font-size: 1rem;
+  align-self: flex-end;
+  margin: 10px;
+}
+
+#company,
+#documents,
+#orders {
+  line-height: 1rem;
+}
+
+#company {
+  grid-column: 2/2;
+}
+
+#documents {
+  grid-column: 3/3;
+}
+
+#orders {
+  grid-column: 4/4;
+}
+
+.dummy-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#footer-logo {
+  grid-column: 5/5;
 }

@@ -1,0 +1,71 @@
+#team {
+  grid-row: 6/6;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+  align-items: center;
+  background-color: #ff8a47;
+  padding: 2% 0;
+}
+
+.employee-img {
+  border: 2px solid #743511;
+  border-radius: 100%;
+  width: 70%;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.employee-txt {
+  line-height: 2rem;
+  margin: 0;
+}
+
+.employee-name {
+  font-size: 1.7rem;
+}
+
+.employee-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #53270c;
+}
+
+#employee-1-img,
+#employee-1-txt {
+  grid-column: 1/1;
+}
+
+#employee-2-img,
+#employee-2-txt {
+  grid-column: 2/2;
+}
+
+#employee-3-img,
+#employee-3-txt {
+  grid-column: 3/3;
+}
+
+#employee-4-img,
+#employee-4-txt {
+  grid-column: 4/4;
+}
+
+#employee-1-img,
+#employee-2-img,
+#employee-3-img,
+#employee-4-img {
+  grid-row: 1/1;
+}
+
+#employee-1-txt,
+#employee-2-txt,
+#employee-3-txt,
+#employee-4-txt {
+  grid-row: 2/2;
+  width: 100%;
+  background-color: #c26936;
+  padding: 5px 0;
+}

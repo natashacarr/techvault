@@ -261,16 +261,16 @@ button.btn:before {
   .card {
     line-height: 1.6rem;
     margin: 0 auto;
-    padding: 5px;
+    padding: 4px;
   }
 
   .card p {
     font-size: 0.5rem;
-    padding: 0 3px;
+    padding: 0 2px;
     margin: 4px 0;
   }
 
   .card span {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }

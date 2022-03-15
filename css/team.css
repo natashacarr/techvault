@@ -69,3 +69,42 @@
   background-color: #c26936;
   padding: 5px 0;
 }
+
+/* ///////////// */
+/* media queries */
+/* ///////////// */
+
+/* 668px */
+@media screen and (max-width: 668px) {
+  .employee-img {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .employee-txt {
+    line-height: 1.5rem;
+  }
+
+  .employee-name {
+    font-size: 1.2rem;
+  }
+
+  .employee-title {
+    font-size: 1rem;
+  }
+}
+
+/* 376px */
+@media screen and (max-width: 376px) {
+  .employee-txt {
+    line-height: 0.8rem;
+  }
+
+  .employee-name {
+    font-size: 0.6rem;
+  }
+
+  .employee-title {
+    font-size: 0.5rem;
+  }
+}

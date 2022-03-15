@@ -92,3 +92,36 @@ button.btn:before {
   font-size: 1.8rem;
   font-weight: bold;
 }
+
+/* ///////////// */
+/* media queries */
+/* ///////////// */
+
+/* 1367px */
+@media screen and (max-width: 1367px) {
+  .card span {
+    font-size: 1.7rem;
+  }
+}
+
+/* 1025px */
+@media screen and (max-width: 1025px) {
+  .product-img {
+    width: 80%;
+  }
+
+  .card {
+    line-height: 2rem;
+    width: 95%;
+  }
+
+  .card p {
+    font-size: 0.7rem;
+    padding: 0 4px;
+    margin: 6px 0;
+  }
+
+  .card span {
+    font-size: 1.1rem;
+  }
+}

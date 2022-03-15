@@ -48,6 +48,7 @@ footer {
   position: sticky;
   top: 0;
   background-color: #f3effe;
+  z-index: 100;
 }
 
 #menu {
@@ -158,4 +159,114 @@ footer {
 .dummy-link:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+/* ///////////// */
+/* media queries */
+/* ///////////// */
+
+/* 1025px */
+@media screen and (max-width: 1025px) {
+  #promise-txt {
+    font-size: 3.3rem;
+    line-height: 3.5rem;
+  }
+
+  footer {
+    font-size: 0.7rem;
+  }
+
+  #company,
+  #policies,
+  #documents,
+  #services,
+  #orders {
+    line-height: 0.7rem;
+    padding-left: 25%;
+  }
+
+  #copyright {
+    font-size: 0.9rem;
+  }
+}
+
+/* 951px */
+@media screen and (max-width: 951px) {
+  #logo-img {
+    width: 50%;
+  }
+
+  #menu li {
+    margin: 0 5%;
+  }
+
+  #menu a,
+  #menu a:visited {
+    font-size: 2.5rem;
+  }
+
+  #promise-txt {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+
+  #copyright {
+    font-size: 0.8rem;
+  }
+}
+
+/* 668px */
+@media screen and (max-width: 668px) {
+  #menu a,
+  #menu a:visited {
+    font-size: 1.8rem;
+  }
+
+  #promise-txt {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  footer {
+    font-size: 0.5rem;
+  }
+
+  #company,
+  #policies,
+  #documents,
+  #services,
+  #orders {
+    line-height: 0.4rem;
+    padding-left: 15%;
+  }
+
+  #copyright {
+    font-size: 0.6rem;
+  }
+}
+
+/* 376px */
+@media screen and (max-width: 376px) {
+  #logo-img {
+    width: 60%;
+    margin: 4% 0;
+  }
+
+  #menu li {
+    margin: 0 2%;
+  }
+
+  #menu a,
+  #menu a:visited {
+    font-size: 1.3rem;
+  }
+
+  #promise-txt {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+
+  footer {
+    display: none;
+  }
 }
